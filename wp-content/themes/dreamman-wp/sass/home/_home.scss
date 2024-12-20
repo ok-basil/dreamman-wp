@@ -1,0 +1,59 @@
+.home {
+    @apply relative h-screen;
+
+    &-wrapper {
+        @apply h-full;
+
+        &-container {
+            @apply h-full relative flex flex-col items-center pt-[268px] md:pt-[273px];
+
+            &-video {
+                @apply absolute top-0 left-0 w-full h-full object-cover z-[-1] pointer-events-none;
+            }
+
+            &-content {
+                @apply relative text-center text-white p-4 flex flex-col items-center;
+
+                &-text {
+                    @apply flex flex-col items-center;
+
+                    &-heading {
+                        @apply text-4xl text-[#F5FCC8] font-bold w-[100%];
+                    }
+
+                    &-buttons {
+                        @apply mt-8 flex flex-col gap-[10px] md:gap-[0] md:flex-row justify-center space-x-4;
+                        
+                        button {
+                            @apply bg-[#BA9E57] border-[3px] border-solid p-[16px] text-center text-[#F5FCC8] rounded-[10px];
+                        }
+
+                        #openStreamModal {
+                            @apply m-[0px] md:ml-[10px];
+                        }
+                    }
+                }
+            }
+
+            &-footer {
+                @apply absolute bottom-0 w-full flex flex-col md:flex-row items-center justify-between;
+
+                &-first-half {
+                    @apply p-[10px];
+
+                    a {
+                        @apply no-underline text-white text-[14px] text-[#F5FCC8] font-semibold hover:text-black ease-in-out duration-300;
+                    }
+                }
+
+                &-second-half {
+                    @apply flex gap-[20px] p-[10px];
+
+                    img {
+                        @apply w-[20px];
+                    }
+                }
+            }
+        }
+    }
+}

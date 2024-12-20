@@ -1,0 +1,23 @@
+/*!
+Theme Name: Dream Man
+Theme URI: http://underscores.me/
+Author: Basil Okache
+Author URI: https://github.com/ok-basil/
+Description: Theme for Dream Man
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: DreamManWP
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Dream Man is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/@import"https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap";@tailwind base;@tailwind components;@tailwind utilities;.home{@apply relative h-screen}.home-wrapper{@apply h-full}.home-wrapper-container{@apply h-full relative flex flex-col items-center pt-[268px] md:pt-[273px]}.home-wrapper-container-video{@apply absolute top-0 left-0 w-full h-full object-cover z-[-1] pointer-events-none}.home-wrapper-container-content{@apply relative text-center text-white p-4 flex flex-col items-center}.home-wrapper-container-content-text{@apply flex flex-col items-center}.home-wrapper-container-content-text-heading{@apply text-4xl text-[#F5FCC8] font-bold w-[100%]}.home-wrapper-container-content-text-buttons{@apply mt-8 flex flex-col gap-[10px] md:gap-[0] md:flex-row justify-center space-x-4}.home-wrapper-container-content-text-buttons button{@apply bg-[#BA9E57] border-[3px] border-solid p-[16px] text-center text-[#F5FCC8] rounded-[10px]}.home-wrapper-container-content-text-buttons #openStreamModal{@apply m-[0px] md:ml-[10px]}.home-wrapper-container-footer{@apply absolute bottom-0 w-full flex flex-col md:flex-row items-center justify-between}.home-wrapper-container-footer-first-half{@apply p-[10px]}.home-wrapper-container-footer-first-half a{@apply no-underline text-white text-[14px] text-[#F5FCC8] font-semibold hover:text-black ease-in-out duration-300}.home-wrapper-container-footer-second-half{@apply flex gap-[20px] p-[10px]}.home-wrapper-container-footer-second-half img{@apply w-[20px]}.modal{@apply fixed hidden left-0 top-0 w-full h-full justify-center items-center bg-black bg-opacity-50}.modal-content{@apply w-[70%] md:w-[34%] relative h-[20vh] flex flex-col text-center rounded-[10px] bg-[#B79954]/50 gap-[20px] justify-center}.modal-content .close{@apply absolute top-[10px] right-[20px] text-[20px] cursor-pointer}.modal-content h2{@apply text-[24px]}.modal-content form .mc4wp-form-fields{@apply flex flex-col items-center gap-[10px]}.modal-content form .mc4wp-form-fields input{@apply border-[2px] bg-[#F6E8CA] h-[auto] w-[230px]}.modal-content form .mc4wp-form-fields button{@apply text-[darkgreen] pt-[10px] font-bold uppercase}.stream-music{@apply fixed hidden left-0 top-0 w-full h-full justify-center items-center bg-black bg-opacity-50}.stream-music-content{@apply w-[70%] md:w-[34%] relative h-[20vh] flex flex-col text-center rounded-[10px] bg-[#B79954]/50 gap-[20px] justify-center}.stream-music-content .close{@apply absolute top-[10px] right-[20px] text-[20px] cursor-pointer}.stream-music-content-container{@apply flex gap-[20px] flex-wrap md:flex-nowrap items-center justify-center}.stream-music-content-container img{@apply w-[45px] object-contain}
